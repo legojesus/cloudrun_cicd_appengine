@@ -4,7 +4,7 @@ steps:
     args:
       - '-c'
       - |
-        gcloud app deploy --project=yaron-europecloud-test --quiet
+        gcloud app deploy --quiet
 
 
 timeout: '1200s'
